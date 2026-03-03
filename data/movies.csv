@@ -1,11 +1,31 @@
-title,genre,language,mood
-Vikram,action,tamil,excited
-Leo,action,tamil,excited
-96,drama,tamil,sad
-Soorarai Pottru,drama,tamil,inspired
-Interstellar,sci-fi,english,calm
-Inception,sci-fi,english,excited
-Titanic,drama,english,sad
-Jai Bhim,drama,tamil,angry
-Avengers,action,english,excited
-Hridayam,drama,malayalam,happy
+title,mood,genre,language,ott,duration,rating,description
+Interstellar,awe,sci-fi,english,Prime Video | Paramount+,2h 49m,8.7,"Space exploration to save humanity 🌌🚀"
+The Shawshank Redemption,hopeful,drama,english,Netflix | Prime Video,2h 22m,9.3,"Hope and friendship behind prison walls 🔓✨"
+Inception,tense,sci-fi,english,Netflix | Hulu,2h 28m,8.8,"Dreams within dreams, reality bends 🧠💥"
+The Dark Knight,thrilling,action,english,Prime Video | Max,2h 32m,9.0,"Batman faces chaos unleashed by Joker 🃏🦇"
+Pulp Fiction,edgy,crime,english,Prime Video | Paramount+,2h 34m,8.9,"Stylized crime stories collide 🎭🔫"
+Spider-Man Into the Spider-Verse,energetic,animation,english,Disney+ | Hulu,1h 57m,8.4,"Multiverse Spider-Man adventure 🕷️🌈"
+Parasite,dark,thriller,korean,Max | Hulu,2h 12m,8.5,"Class divide turns deadly 🏠🔪"
+Gladiator,epic,action,english,Prime Video | Paramount+,2h 35m,8.5,"Vengeance in ancient Rome ⚔️🏛️"
+3 Idiots,happy,comedy,hindi,Netflix | Prime Video,2h 50m,8.4,"Friendship and redefining success 🎓😂"
+Zindagi Na Milegi Dobara,uplifting,drama,hindi,Netflix | Prime Video,2h 35m,8.2,"Friendship road trip and self-discovery ✈️🌍"
+Andhadhun,suspense,thriller,hindi,Netflix,2h 19m,8.2,"A blind pianist in a crime maze 🎹🩸"
+Sholay,epic,action,hindi,Prime Video,3h 24m,8.1,"Iconic dacoit revenge saga 🤠🔥"
+Swades,emotional,drama,hindi,Netflix,3h 9m,8.2,"Returning home to serve the nation 🇮🇳💡"
+Tumbbad,eerie,horror,hindi,Prime Video,1h 44m,8.2,"Mythology meets greed 👹💰"
+Lagaan,uplifting,drama,hindi,Netflix,3h 44m,8.1,"Cricket against colonial power 🏏⚡"
+Jai Bhim,intense,drama,tamil,Prime Video,2h 44m,8.7,"Fight for justice against oppression ⚖️🔥"
+Super Deluxe,thoughtful,drama,tamil,Netflix,2h 56m,8.2,"Lives intersect with chaos and truth 🌈🎭"
+Vikram,gritty,action,tamil,Disney+ Hotstar,2h 55m,8.3,"Black-ops war on drugs 💣🕶️"
+Maharaja,revenge,thriller,tamil,Netflix,2h 22m,8.5,"Hidden pain behind a stolen dustbin 🗑️💔"
+Parasakthi,intense,drama,tamil,ZEE5,2h 40m,7.5,"Power justice and society collide ⚔️📢"
+Ponniyin Selvan I,grand,drama,tamil,Prime Video,2h 47m,7.6,"Chola empire politics and power 👑📜"
+Ghilli,fun,action,tamil,Sun NXT,2h 40m,8.1,"Kabaddi hero rescues love 🏃‍♂️❤️"
+Drishyam,brainy,thriller,malayalam,Disney+ Hotstar,2h 40m,8.3,"Perfect crime to protect family 🧠🕵️"
+Kumbalangi Nights,heartwarming,drama,malayalam,Prime Video,2h 15m,8.2,"Healing broken families 🌊💙"
+Manjummel Boys,tense,adventure,malayalam,Disney+ Hotstar,2h 15m,8.3,"Survival against impossible odds 🕳️🔥"
+The Goat Life,poignant,biography,malayalam,Netflix,2h 53m,8.2,"Human endurance in the desert 🐐🏜️"
+Lokah Chapter 1 Chandra,heroic,fantasy,malayalam,Disney+ Hotstar,2h 38m,8.6,"Malayalam superhero spectacle 🦸‍♂️✨"
+Premalu,romantic,comedy,malayalam,Disney+ Hotstar,2h 36m,7.8,"Youthful love and laughter 💕😂"
+Bangalore Days,nostalgic,drama,malayalam,Disney+ Hotstar,2h 51m,8.3,"Friendship and growing up 🏙️💫"
+Chatha Pacha,comedic,action,malayalam,Netflix,2h 20m,7.9,"Wrestling chaos and humor 🤼‍♂️🤣"

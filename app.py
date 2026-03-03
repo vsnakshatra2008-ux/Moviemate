@@ -1,42 +1,51 @@
-import pandas as pd
+from functions import load_movies, recommend_movies, mood_message
 
-def load_movies(csv_path):
-    """
-    Load movies from CSV file and return as list of dictionaries
-    """
-    df = pd.read_csv(csv_path)
-
-    # Make everything lowercase for easy matching
-    for col in ["mood", "genre", "language"]:
-        df[col] = df[col].str.lower()
-
-    return df.to_dict(orient="records")
+def detect_mood(text):
+    text = text.lower()
+    if "sad" in text or "down" in text:
+        return "sad"
+    if "happy" in text or "excited" in text:
+        return "happy"
+    if "bored" in text:
+        return "bored"
+    return "neutral"
 
 
-def recommend_movies(movies, mood, genre, language):
-    """
-    Recommend top 3 movies based on mood, genre, and language
-    """
+def main():
+    print("🎬 Welcome to MovieMate – AI Movie Recommender 🎬\n")
 
-    mood = mood.lower()
-    genre = genre.lower()
-    language = language.lower()
+    movies = load_movies("data/movies.csv")
 
-    strong_matches = []
-    weak_matches = []
+    choice = input("Do you want to speak your mood? (yes/no): ").strip().lower()
 
-    for movie in movies:
-        if (
-            movie["mood"] == mood
-            and movie["genre"] == genre
-            and movie["language"] == language
-        ):
-            strong_matches.append(movie)
+    if choice == "yes":
+        print("🎤 Voice mode (simulated)")
+        text = input("Type a sentence describing your mood: ")
+        mood = detect_mood(text)
+        print(f"🧠 Detected mood: {mood}")
+    else:
+        mood = input("Enter your mood (happy, sad, excited, etc): ").lower()
 
-        elif movie["genre"] == genre and movie["language"] == language:
-            weak_matches.append(movie)
+    genre = input("Enter genre (Action, Comedy, Drama, etc): ").lower()
+    language = input("Enter language (English, Tamil, Hindi, etc): ").lower()
 
-    # Prefer strong matches, fallback to weak matches
-    results = strong_matches if strong_matches else weak_matches
+    print("\n" + mood_message(mood, genre) + "\n")
 
-    return results[:3]
+    recommendations = recommend_movies(movies, mood, genre, language)
+
+    if not recommendations:
+        print("😔 No movies found. Try different options.")
+        return
+
+    print("🎥 Recommended Movies for You:\n")
+
+    for i, movie in enumerate(recommendations, 1):
+        print(f"{i}. 🎬 {movie['title']}")
+        print(f"   ⭐ Rating: {movie['rating']}")
+        print(f"   ⏱ Duration: {movie['duration']}")
+        print(f"   📺 OTT: {movie['ott']}")
+        print(f"   📝 {movie['description']}\n")
+
+
+if __name__ == "__main__":
+    main()
