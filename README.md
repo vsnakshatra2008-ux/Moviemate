@@ -51,6 +51,7 @@ Copy code
 1. **Install required library:**
 
 ```bash
+
 pip install pandas
 Run the program:
 Bash
@@ -60,19 +61,26 @@ Follow prompts:
 Enter your mood
 Enter preferred genre
 Enter preferred language
+
 🎤 Voice input is simulated using text for now.
 Microphone-based input will be added in future versions.
-🚀 Future Improvements
+
+
+ ## 🚀 Future Improvements
 Real voice input using speech APIs 🎤
 Advanced mood detection using NLP and AI models 🤖
 Expanded movie database with more OTT platforms 🎞️
 Web or mobile interface for wider accessibility 📱💻
-💰 Business Model & Expected Cost
+
+
+## 💰 Business Model & Expected Cost
 Impact: Makes movie selection faster, personalized, and fun 🎯
 Market Opportunity: Users across OTT platforms, AI-based personalization apps 📈
 Business Model: Freemium (basic free, premium with extended features) 💡
 Expected Cost: Minimal (Python + Pandas, CSV data, no paid APIs initially) 💰
-📝 Conclusion
+
+
+ ## 📝 Conclusion
 MovieMate is a beginner-friendly project demonstrating how AI concepts can be applied to real-world problems.
 Focus is on idea clarity, simple AI logic, and providing fun, personalized experiences for users.
 Even with a basic setup, it effectively shows AI-based mood detection and decision-making in action.
