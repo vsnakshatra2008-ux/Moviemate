@@ -48,6 +48,7 @@ Moviemate/
 ├── data/
 │   └── movies.csv
 └── README.md
+
 ▶ How to Run the Project
 
 Install required library:
