@@ -81,7 +81,7 @@ Web or mobile interface for easy access
 Team size: 2 members
 
 Both members contributed to logic design, dataset preparation, and coding
----
+
 📝 Conclusion
 
 MovieMate is a beginner-friendly project that demonstrates how AI concepts can be applied to real-life problems in a simple way.
